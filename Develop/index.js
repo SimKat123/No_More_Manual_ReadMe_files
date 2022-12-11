@@ -13,7 +13,7 @@ const renderLicenseBadge = (license)=> {
   } else if (license == "BSD 3") {
     return `![License](https://img.shields.io/badge/license-BSD%203.0-blue.svg)`;
   } else if (license == "None") {
-    return
+    return ``;
   };
 };
 
@@ -32,7 +32,7 @@ This project is licensed under the ${license} license.\n`;
     return `\n## License
 This project is licensed under the ${license} license.\n`;
   } else if (license == "None") {
-    return
+    return ``;
   };
 }
 
