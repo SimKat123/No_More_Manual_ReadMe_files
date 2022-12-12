@@ -69,7 +69,6 @@ To install the necessary dependencies, run the following command: ${dependencies
 ${warning}
 
 ${renderlicense(license)}
-
 ## Contributing
 ${contributions}
 
